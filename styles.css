@@ -1,0 +1,122 @@
+.joquempo-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 56px;
+}
+.winner-message {
+  color: #ffffff;
+  font-size: 33px;
+  display: flex;
+  justify-content: center;
+}
+
+.winner-message-wrapper {
+  background-color: #0099ff;
+  border-radius: 12px 12px 0 0;
+  padding: 15px 66px;
+  width: fit-content;
+}
+
+.scoreboard {
+  width: 949px;
+  height: 148px;
+  background-color: #0099ff;
+  border-radius: 17px;
+  padding: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scoreboard-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.player-name {
+  color: #ffffff;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.player-score {
+  font-size: 104px;
+  color: #0099ff;
+  font-weight: 900;
+  text-align: center;
+}
+
+.player-score-wrapper {
+  background-color: #dbf1ff;
+  width: fit-content;
+  border-radius: 17px;
+  padding-left: 7px;
+}
+
+.player-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}
+
+.separator {
+  color: #ffffff;
+  font-size: 58px;
+  font-weight: 900;
+}
+
+.separator--lg {
+  font-size: 104px;
+}
+
+.button {
+  background-color: #0099ff;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 44px;
+  width: 220px;
+  height: 80px;
+  transition: 300ms;
+}
+
+.button:hover {
+  background-color: #dbf1ff;
+  color: #0099ff;
+  border: 1px solid #0099ff;
+}
+
+.button-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.button--sm {
+  font-size: 33px;
+  gap: 101px;
+}
+
+.battlefield-box {
+  background-color: #0099ff;
+  padding: 35px;
+  border-radius: 17px;
+  display: flex;
+  align-items: center;
+  gap: 101px;
+}
+
+.field {
+  width: 464px;
+  height: 345px;
+  background-color: #dbf1ff;
+  border-radius: 17px;
+}
+
+.battlefield-container {
+  display: flex;
+  gap: 19px;
+}

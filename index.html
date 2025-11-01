@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="joquempo-main">
+      <header class="scoreboard-box">
+        <div class="winner-message-wrapper">
+          <h1 class="winner-message">jogadora 01 ganhou!</h1>
+        </div>
+        <div class="scoreboard">
+          <div class="player-wrapper">
+            <span class="player-name">jogador 01</span>
+            <div class="player-score-wrapper">
+              <span class="player-score">01</span>
+            </div>
+          </div>
+          <span class="separator">VS</span>
+          <div class="player-wrapper">
+            <div class="player-score-wrapper">
+              <span class="player-score">01</span>
+            </div>
+            <span class="player-name">jogador 02</span>
+          </div>
+        </div>
+      </header>
+      <div class="battlefield-container">
+        <div class="button-box">
+          <button class="button">pedra</button>
+          <button class="button">papel</button>
+          <button class="button">tesoura</button>
+        </div>
+        <div class="battlefield-box">
+          <div class="field"></div>
+          <span class="separator separator--lg">VS</span>
+          <div class="field"></div>
+        </div>
+        <div class="button-box">
+          <button class="button">pedra</button>
+          <button class="button">papel</button>
+          <button class="button">tesoura</button>
+        </div>
+      </div>
+      <div class="button-config-wrapper">
+        <button class="button button--sm">iniciar</button>
+        <button class="button button--sm">resetar</button>
+      </div>
+    </main>
+  </body>
+</html>
